@@ -615,6 +615,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from scipy.ndimage import gaussian_filter
 from ripser import ripser
 from tqdm import tqdm
+import persim
 
 def rasters_to_barcode(list_of_rasters, dim = 0, q = 3.0):
     list_of_barcodes = []
