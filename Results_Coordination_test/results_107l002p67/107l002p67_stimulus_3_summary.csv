@@ -1,0 +1,2 @@
+member,stimulus,completed_splits,tda_mean_accuracy,tda_std_accuracy,linear_svm_mean_accuracy,linear_svm_std_accuracy,rbf_svm_mean_accuracy,rbf_svm_std_accuracy,chance_accuracy
+107l002p67,3,20,0.6741666666666666,0.051717575371813214,0.5,0.0,0.6025,0.03557177079079676,0.5
