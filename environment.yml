@@ -10,6 +10,11 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
+  - scipy
+  - tqdm
+  - joblib
+  - jupyterlab
+  - ipykernel
   - pip
   - pip:
       - persim
@@ -18,3 +23,4 @@ dependencies:
       - neo
       - quantities
       - gudhi
+      - multiprocess

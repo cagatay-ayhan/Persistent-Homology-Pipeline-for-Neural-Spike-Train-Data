@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
 import pickle
+from IPython.display import display
+from repo_paths import GC_NEURON_DF, REPO_ROOT
 
-path_neuron_df = '/Users/cgty/Library/Mobile Documents/com~apple~CloudDocs/CLASSES/FSU/MyResearch/GITHUB/Spike-Train-Data-Analysis/Data/Temperature Data/NeuronDF.pickle' # fill this in yourself
-pairs = pd.read_csv('pairs.csv',dtype= {'Date':str}) # pairs is a csv file that helps keep a fixed order for Mouse-Date pairs
+path_neuron_df = GC_NEURON_DF
+pairs = pd.read_csv(REPO_ROOT / 'data/metadata/pairs.csv',dtype= {'Date':str}) # pairs is a csv file that helps keep a fixed order for Mouse-Date pairs
 with open(path_neuron_df,'rb') as file:
     Df = pickle.load(file)
 

@@ -18,3 +18,8 @@ Datasets/
 
 # Jupyter
 .ipynb_checkpoints
+
+# Local exports, raw recordings, and Finder metadata
+outputs/
+.DS_Store
+*.pickle
