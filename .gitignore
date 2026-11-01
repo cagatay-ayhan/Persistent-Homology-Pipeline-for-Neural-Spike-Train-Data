@@ -23,3 +23,6 @@ Datasets/
 outputs/
 .DS_Store
 *.pickle
+
+# Local documentation
+/docs/

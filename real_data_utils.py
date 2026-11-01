@@ -5,7 +5,7 @@ from IPython.display import display
 from repo_paths import GC_NEURON_DF, REPO_ROOT
 
 path_neuron_df = GC_NEURON_DF
-pairs = pd.read_csv(REPO_ROOT / 'data/metadata/pairs.csv',dtype= {'Date':str}) # pairs is a csv file that helps keep a fixed order for Mouse-Date pairs
+pairs = pd.read_csv(REPO_ROOT / 'metadata/pairs.csv',dtype= {'Date':str}) # pairs is a csv file that helps keep a fixed order for Mouse-Date pairs
 with open(path_neuron_df,'rb') as file:
     Df = pickle.load(file)
 
